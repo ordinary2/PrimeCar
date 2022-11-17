@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "SF Pro Display";
+    src: url(../font/sf-pro-display-cufonfonts/SFPRODISPLAYREGULAR.OTF),
+    url(../font/sf-pro-display-cufonfonts/SFPRODISPLAYBOLD.OTF),
+    url(../font/sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF);
+}
+
 .header_block {
     background-image: url('/images/Background.png');
 }
@@ -31,13 +38,16 @@
 
 .nav_menu ul {
     display: flex;
+    list-style: none;
 }
 
-.nav_menu ul li{
+.nav_menu ul li a{
     text-decoration: none;
     color: white;
     list-style: none;
     text-transform: capitalize;
+
+    font-family: "SF Pro Display";
     font-size: 24px;
     font-weight: 600;
 }
@@ -52,4 +62,5 @@
     border-radius: 8px;
     color: white;
     border-color: white;
+    text-transform: capitalize;
 }
