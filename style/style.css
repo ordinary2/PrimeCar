@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5,h6,p,a {
 
 .first-screen {
     background-image: url('/images/Background.png');
+    background-repeat: no-repeat;
 }
 
 .header_block {
@@ -114,4 +115,47 @@ h1,h2,h3,h4,h5,h6,p,a {
 .main-button {
     text-decoration: none;
     margin-right: 10px;
+}
+
+/* About Section */
+
+.about {
+    background-color: #181818;
+    font-family: "SF Pro Display";
+    padding: 60px 0;
+    position: relative;
+}
+
+/* .about::after {
+    position: absolute;
+    content: "about us";
+    color: #373737;
+    font-size: 200px;
+    font-family: "SF Pro Display";
+    font-weight: bold;
+    left: 1400px;
+    bottom: 1px;
+    z-index: 2;
+} */
+
+.about-title {
+    text-align: center;
+    font-size: 130px;
+    text-transform: uppercase;
+    font-family: 'American Captain', sans-serif;
+    font-weight: 400;
+    margin-bottom: 95px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.para-item {
+    margin-top: 45.5px;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
 }
