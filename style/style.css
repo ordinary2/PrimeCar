@@ -256,3 +256,111 @@ h1,h2,h3,h4,h5,h6,p,a {
 .card-link {
     margin-bottom: 35px;
 }
+
+/* Cars Section */
+
+.cars {
+    padding-top: 100px;
+    background-color: #181818;
+}
+
+.cars-title {
+    font-family: 'American Captain', sans-serif;
+    font-weight: 400;
+    font-size: 110px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.cars-text {
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 60px;
+}
+
+.cars-block {
+    
+}
+
+.car:first-child {
+    margin-left: -192px;
+}
+
+/* power section */
+
+.power {
+    padding: 100px 0;
+    background-color: #1A191A;
+    position: relative;
+    overflow: hidden;
+}
+
+.power-texts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.power-title {
+    font-family: 'American Captain', sans-serif;
+    font-weight: 400;
+    font-size: 130px;
+    text-transform: uppercase;
+    width: 700px;
+    z-index: 100;
+}
+
+.power-text {
+    width: 417px;
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.car-video {
+    background-image: url(../images/car-video.png);
+    border-radius: 8px;
+    height: 817px;
+    z-index: 110;
+    position: relative;
+}
+
+.car-video-img {
+    z-index: 200;
+}
+
+.orange-star {
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+    transform: rotate(-1deg);
+    left: -160px;
+}
+
+.blue-star {
+    position: absolute;
+    z-index: 400;
+    right: -36px;
+    bottom: -40px;
+}
+
+.play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, .3);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.play-img {
+    padding-left: 12px;
+}
