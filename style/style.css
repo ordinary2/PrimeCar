@@ -279,10 +279,6 @@ h1,h2,h3,h4,h5,h6,p,a {
     margin-bottom: 60px;
 }
 
-.cars-block {
-    
-}
-
 .car:first-child {
     margin-left: -192px;
 }
@@ -363,4 +359,102 @@ h1,h2,h3,h4,h5,h6,p,a {
 
 .play-img {
     padding-left: 12px;
+}
+
+/* Contact Section */
+
+.contact {
+    background-color: #181818;
+    padding: 116px 0;
+    position: relative;
+}
+
+.contact::before{
+    content: 'contact us';
+    position: absolute;
+    color: #202020;
+    font-size: 247px;
+    font-family: "SF Pro Display";
+    font-weight: 700;
+    top: -15px;
+    left: -20px;
+}
+
+.flex-block {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-texts {
+    padding: 55px 0;
+    width: 660px;
+}
+
+.contact-title{
+    font-family: 'American Captain', sans-serif;
+    font-weight: 400;
+    font-size: 120px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.contact-text {
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 626px;
+}
+
+.input {
+    height: 32px;
+    background-color:transparent;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    font-weight: 400;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    width: 48%;
+    margin-bottom: 50px;
+}
+
+.input:nth-child(1),
+.input:nth-child(3){
+    margin-right: 20px;
+}
+
+.input::placeholder {
+    color: #F2F2F2;
+}
+
+.input:nth-child(5) {
+    width: 626px;
+}
+
+.form-submit {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 41px;
+    height: 45px;
+    font-size: 24px;
+    font-family: "SF Pro Display";
+    font-weight: 600;
+    line-height: 1;
+}
+
+.break {
+    flex-basis: 100%;
+    width: 0px; 
+    height: 0px; 
+    overflow: hidden;
 }
