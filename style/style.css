@@ -458,3 +458,77 @@ h1,h2,h3,h4,h5,h6,p,a {
     height: 0px; 
     overflow: hidden;
 }
+
+/* Map */
+
+.map {
+    background-image: url(/images/Rectangle\ 56.png);
+    height: 377px;
+    background-size:cover;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #161616;
+    padding: 60px 0;
+}
+
+.upper-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 69px;
+}
+
+.footer-title {
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    color: #BDBDBD;
+    list-style: none;
+    font-size: 17px;
+    font-family: "SF Pro Display";
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+    color: #BDBDBD;
+    font-family: "SF Pro Display";
+    font-weight: 400;
+}
+.footer-link:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.social-link {
+    border: 0;
+    text-decoration: none;
+}
+
+.social-link:not(:last-child) {
+    margin-right: 23px;
+}
+
+.bottom-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.doc-link {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: "SF Pro Display";
+    font-weight: 400;
+}
+
+.doc-link:not(:last-child) {
+    margin-right: 34px;
+}
