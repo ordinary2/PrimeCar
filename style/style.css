@@ -262,6 +262,7 @@ h1,h2,h3,h4,h5,h6,p,a {
 .cars {
     padding-top: 100px;
     background-color: #181818;
+    overflow: hidden;
 }
 
 .cars-title {
@@ -279,8 +280,55 @@ h1,h2,h3,h4,h5,h6,p,a {
     margin-bottom: 60px;
 }
 
-.car:first-child {
+.car-first-row,
+.car-second-row{
+    display: flex;
+}
+
+.row-1 {
     margin-left: -192px;
+}
+
+.row-2{
+    margin-left: -467px;
+}
+
+.car-img {
+    position: relative;
+    background-image: url(/images/Rectangle\ 2.png);
+}
+
+.car-info {
+    height: 100%;
+    width: 570px;
+    top: 40%;
+    left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.car-info button {
+    width: 142px;
+    text-align: center;
+    padding: 8px 0;
+}
+
+.car-title{
+    font-size: 32px;
+    font-family: "SF Pro Display";
+    font-weight: 700;
+    text-align: center;
+    margin-top: 63px;
+    margin-bottom: 10px;
+}
+
+.car-text {
+    font-size: 20px;
+    font-family: "SF Pro Display";
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 28px;
 }
 
 /* power section */
