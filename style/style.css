@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,h6,p,a {
 }
 
 .first-screen {
-    background-image: url('/images/Background.png');
+    background-image: url('../images/Background.png');
     background-repeat: no-repeat;
 }
 
@@ -178,14 +178,14 @@ h1,h2,h3,h4,h5,h6,p,a {
 }
 
 .benefits::before {
-    content: url(/images/Lines.png);
+    content: url(../images/Lines.png);
     position: absolute;
     top: 0px;
     left: 0px;
 }
 
 .benefits::after {
-    content: url(/images/Lines.png);
+    content: url(../images/Lines.png);
     position: absolute;
     bottom: 0px;
     right: 0px;
@@ -303,7 +303,7 @@ h1,h2,h3,h4,h5,h6,p,a {
 
 .car-img {
     position: relative;
-    background-image: url(/images/Rectangle\ 2.png);
+    background-image: url(../images/Rectangle\ 2.png);
 }
 
 .car-info {
@@ -524,7 +524,7 @@ h1,h2,h3,h4,h5,h6,p,a {
 /* Map */
 
 .map {
-    background-image: url(/images/Rectangle\ 56.png);
+    background-image: url(../images/Rectangle\ 56.png);
     height: 377px;
     background-size:cover;
 }
