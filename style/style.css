@@ -45,6 +45,7 @@ h1,h2,h3,h4,h5,h6,p,a {
     font-size: 56px;
     line-height: 56px;
     height: 48px;
+    cursor: pointer;
 }
 
 .nav_menu ul {
@@ -61,6 +62,12 @@ h1,h2,h3,h4,h5,h6,p,a {
     font-family: "SF Pro Display";
     font-size: 24px;
     font-weight: 600;
+    transition: all ease .5s;
+}
+
+.nav_menu ul li a:hover,
+.logo:hover {
+    color: #BDBDBD;
 }
 
 .nav_menu ul :not(:last-child){
@@ -79,6 +86,7 @@ h1,h2,h3,h4,h5,h6,p,a {
     border: white 2px solid;
     text-transform: capitalize;
     cursor: pointer;
+    transition: all ease .5s ;
 }
 
 /* First Section */
@@ -486,6 +494,11 @@ h1,h2,h3,h4,h5,h6,p,a {
     width: 626px;
 }
 
+.input:focus {
+    background-color: #252525;
+    border-top-right-radius: 6px;
+}
+
 .form-submit {
     background-color: transparent;
     color: #fff;
@@ -498,6 +511,7 @@ h1,h2,h3,h4,h5,h6,p,a {
     font-family: "SF Pro Display";
     font-weight: 600;
     line-height: 1;
+    transition: all ease .5s;
 }
 
 .break {
@@ -560,6 +574,14 @@ h1,h2,h3,h4,h5,h6,p,a {
     text-decoration: none;
 }
 
+.social-icon {
+    transition: all ease .5s;
+}
+
+.social-icon:hover{
+    transform: scale(120%);
+}
+
 .social-link:not(:last-child) {
     margin-right: 23px;
 }
@@ -579,4 +601,10 @@ h1,h2,h3,h4,h5,h6,p,a {
 
 .doc-link:not(:last-child) {
     margin-right: 34px;
+}
+
+.menu_button:hover,
+.form-submit:hover{
+    background-color: #000;
+
 }
