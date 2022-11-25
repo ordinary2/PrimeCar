@@ -17,6 +17,11 @@ h1,h2,h3,h4,h5,h6,p,a {
     url(../font/sf-pro-display-cufonfonts/SFPRODISPLAYMEDIUM.OTF);
 }
 
+@font-face {
+    font-family: "American Captain";
+    src: url(../font/sf-pro-display-cufonfonts/American\ Captain.otf);
+}
+
 .first-screen {
     background-image: url('../images/Background.png');
     background-repeat: no-repeat;
